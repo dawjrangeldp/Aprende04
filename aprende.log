@@ -1,0 +1,125 @@
+2024-01-29T19:23:55.507+01:00  INFO 16628 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Starting Aprende04Application using Java 17.0.8.1 with PID 16628 (C:\Users\daw2\Desktop\IntelliJProjects\Aprende04\build\classes\java\main started by daw2 in C:\Users\daw2\Desktop\IntelliJProjects\Aprende04)
+2024-01-29T19:23:55.509+01:00  INFO 16628 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : No active profile set, falling back to 1 default profile: "default"
+2024-01-29T19:23:55.554+01:00  INFO 16628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-29T19:23:55.554+01:00  INFO 16628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-29T19:23:56.406+01:00  INFO 16628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29T19:23:56.476+01:00  INFO 16628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2024-01-29T19:23:57.075+01:00  INFO 16628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-29T19:23:57.086+01:00  INFO 16628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-29T19:23:57.086+01:00  INFO 16628 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-29T19:23:57.132+01:00  INFO 16628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-29T19:23:57.132+01:00  INFO 16628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1577 ms
+2024-01-29T19:23:57.158+01:00  INFO 16628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-29T19:23:57.366+01:00  INFO 16628 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:3219246c-4036-4a11-9b70-3793b1c319a8 user=SA
+2024-01-29T19:23:57.368+01:00  INFO 16628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-29T19:23:57.376+01:00  INFO 16628 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:3219246c-4036-4a11-9b70-3793b1c319a8'
+2024-01-29T19:23:57.473+01:00  INFO 16628 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29T19:23:57.537+01:00  INFO 16628 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-29T19:23:57.576+01:00  INFO 16628 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-29T19:23:57.835+01:00  INFO 16628 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-29T19:23:58.885+01:00  INFO 16628 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-29T19:23:58.939+01:00  INFO 16628 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:23:59.503+01:00  WARN 16628 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29T19:23:59.820+01:00  INFO 16628 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cfbf177, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@735d75fa, org.springframework.security.web.context.SecurityContextHolderFilter@6dfb390b, org.springframework.security.web.header.HeaderWriterFilter@41ec3303, org.springframework.web.filter.CorsFilter@cff569b, org.springframework.security.web.authentication.logout.LogoutFilter@5b07ddfb, com.daw2.aprende04.auth.jwt.AuthTokenFilter@3762106, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62bf8210, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78e5d25f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69fb989e, org.springframework.security.web.session.SessionManagementFilter@559b98a2, org.springframework.security.web.access.ExceptionTranslationFilter@1b34a51f, org.springframework.security.web.access.intercept.AuthorizationFilter@1abaaa78]
+2024-01-29T19:24:00.107+01:00  INFO 16628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-29T19:24:00.154+01:00  INFO 16628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-29T19:24:00.166+01:00  INFO 16628 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Started Aprende04Application in 5.039 seconds (process running for 6.823)
+2024-01-29T19:31:03.791+01:00  INFO 16628 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29T19:31:03.791+01:00  INFO 16628 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-29T19:31:03.793+01:00  INFO 16628 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-29T19:31:03.815+01:00 ERROR 16628 --- [http-nio-8080-exec-2] c.d.a.auth.jwt.AuthEntryPointJwt         : Unauthorized error: Full authentication is required to access this resource
+2024-01-29T19:33:01.784+01:00  INFO 16628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:33:01.793+01:00  WARN 16628 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-01-29T19:33:01.794+01:00  INFO 16628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-29T19:33:01.795+01:00  INFO 16628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-29T19:33:05.244+01:00  INFO 1912 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Starting Aprende04Application using Java 17.0.8.1 with PID 1912 (C:\Users\daw2\Desktop\IntelliJProjects\Aprende04\build\classes\java\main started by daw2 in C:\Users\daw2\Desktop\IntelliJProjects\Aprende04)
+2024-01-29T19:33:05.245+01:00  INFO 1912 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : No active profile set, falling back to 1 default profile: "default"
+2024-01-29T19:33:05.289+01:00  INFO 1912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-29T19:33:05.290+01:00  INFO 1912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-29T19:33:05.989+01:00  INFO 1912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29T19:33:06.054+01:00  INFO 1912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2024-01-29T19:33:06.562+01:00  INFO 1912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-29T19:33:06.572+01:00  INFO 1912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-29T19:33:06.572+01:00  INFO 1912 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-29T19:33:06.617+01:00  INFO 1912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-29T19:33:06.617+01:00  INFO 1912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2024-01-29T19:33:06.646+01:00  INFO 1912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-29T19:33:06.821+01:00  INFO 1912 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4285f7a5-04f1-49cd-8b08-929e9088b231 user=SA
+2024-01-29T19:33:06.823+01:00  INFO 1912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-29T19:33:06.831+01:00  INFO 1912 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4285f7a5-04f1-49cd-8b08-929e9088b231'
+2024-01-29T19:33:06.919+01:00  INFO 1912 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29T19:33:06.969+01:00  INFO 1912 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-29T19:33:07.000+01:00  INFO 1912 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-29T19:33:07.215+01:00  INFO 1912 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-29T19:33:08.151+01:00  INFO 1912 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-29T19:33:08.205+01:00  INFO 1912 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:33:08.741+01:00  WARN 1912 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29T19:33:09.202+01:00  INFO 1912 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6760b43e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78f50da6, org.springframework.security.web.context.SecurityContextHolderFilter@58321975, org.springframework.security.web.header.HeaderWriterFilter@35d2fffe, org.springframework.web.filter.CorsFilter@1a0eb989, org.springframework.security.web.authentication.logout.LogoutFilter@47b6c15d, com.daw2.aprende04.auth.jwt.AuthTokenFilter@50c805b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38ac158c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f73aaca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6e2082, org.springframework.security.web.session.SessionManagementFilter@79ee16d2, org.springframework.security.web.access.ExceptionTranslationFilter@4bc36024, org.springframework.security.web.access.intercept.AuthorizationFilter@1cb0674b]
+2024-01-29T19:33:09.581+01:00  INFO 1912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-29T19:33:09.631+01:00  INFO 1912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-29T19:33:09.645+01:00  INFO 1912 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Started Aprende04Application in 4.724 seconds (process running for 5.359)
+2024-01-29T19:33:17.592+01:00  INFO 1912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29T19:33:17.593+01:00  INFO 1912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-29T19:33:17.594+01:00  INFO 1912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-29T19:33:17.674+01:00  WARN 1912 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2024-01-29T19:33:17.674+01:00 ERROR 1912 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : La columna "CATEGORIA_ID" no permite valores nulos (NULL)
+NULL not allowed for column "CATEGORIA_ID"; SQL statement:
+insert into articulos (categoria_id,descripcion,ficha_tecnica,imagen,iva,nombre,precio,proveedor_id,referencia,unidades,id) values (?,?,?,?,?,?,?,?,?,?,default) [23502-224]
+2024-01-29T19:34:01.441+01:00  WARN 1912 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2024-01-29T19:34:01.441+01:00 ERROR 1912 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : La columna "CATEGORIA_ID" no permite valores nulos (NULL)
+NULL not allowed for column "CATEGORIA_ID"; SQL statement:
+insert into articulos (categoria_id,descripcion,ficha_tecnica,imagen,iva,nombre,precio,proveedor_id,referencia,unidades,id) values (?,?,?,?,?,?,?,?,?,?,default) [23502-224]
+2024-01-29T19:34:17.141+01:00  WARN 1912 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2024-01-29T19:34:17.141+01:00 ERROR 1912 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : La columna "CATEGORIA_ID" no permite valores nulos (NULL)
+NULL not allowed for column "CATEGORIA_ID"; SQL statement:
+insert into articulos (categoria_id,descripcion,ficha_tecnica,imagen,iva,nombre,precio,proveedor_id,referencia,unidades,id) values (?,?,?,?,?,?,?,?,?,?,default) [23502-224]
+2024-01-29T19:35:23.868+01:00  INFO 1912 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:35:23.874+01:00  WARN 1912 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-01-29T19:35:23.874+01:00  INFO 1912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-29T19:35:23.875+01:00  INFO 1912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-29T19:35:25.991+01:00  INFO 18688 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Starting Aprende04Application using Java 17.0.8.1 with PID 18688 (C:\Users\daw2\Desktop\IntelliJProjects\Aprende04\build\classes\java\main started by daw2 in C:\Users\daw2\Desktop\IntelliJProjects\Aprende04)
+2024-01-29T19:35:25.993+01:00  INFO 18688 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : No active profile set, falling back to 1 default profile: "default"
+2024-01-29T19:35:26.035+01:00  INFO 18688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-29T19:35:26.035+01:00  INFO 18688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-29T19:35:26.649+01:00  INFO 18688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29T19:35:26.708+01:00  INFO 18688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2024-01-29T19:35:27.204+01:00  INFO 18688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-29T19:35:27.213+01:00  INFO 18688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-29T19:35:27.213+01:00  INFO 18688 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-29T19:35:27.254+01:00  INFO 18688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-29T19:35:27.255+01:00  INFO 18688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1219 ms
+2024-01-29T19:35:27.283+01:00  INFO 18688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-29T19:35:27.456+01:00  INFO 18688 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:343f9977-afd8-4536-ae06-396b72ffa930 user=SA
+2024-01-29T19:35:27.458+01:00  INFO 18688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-29T19:35:27.467+01:00  INFO 18688 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:343f9977-afd8-4536-ae06-396b72ffa930'
+2024-01-29T19:35:27.550+01:00  INFO 18688 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29T19:35:27.599+01:00  INFO 18688 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-29T19:35:27.628+01:00  INFO 18688 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-29T19:35:27.838+01:00  INFO 18688 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-29T19:35:28.765+01:00  INFO 18688 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-29T19:35:28.820+01:00  INFO 18688 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:35:29.302+01:00  WARN 18688 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29T19:35:29.548+01:00  INFO 18688 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28fbdef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6aebbd41, org.springframework.security.web.context.SecurityContextHolderFilter@65a1eb73, org.springframework.security.web.header.HeaderWriterFilter@77b916f6, org.springframework.web.filter.CorsFilter@1cb0674b, org.springframework.security.web.authentication.logout.LogoutFilter@523b72d8, com.daw2.aprende04.auth.jwt.AuthTokenFilter@2e7b5449, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79ee16d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2689e5f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f49ba13, org.springframework.security.web.session.SessionManagementFilter@43011d88, org.springframework.security.web.access.ExceptionTranslationFilter@1b79bb22, org.springframework.security.web.access.intercept.AuthorizationFilter@302b04e3]
+2024-01-29T19:35:29.760+01:00  INFO 18688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-29T19:35:29.794+01:00  INFO 18688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-29T19:35:29.802+01:00  INFO 18688 --- [restartedMain] c.daw2.aprende04.Aprende04Application    : Started Aprende04Application in 4.13 seconds (process running for 4.682)
+2024-01-29T19:35:39.473+01:00  INFO 18688 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29T19:35:39.473+01:00  INFO 18688 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-29T19:35:39.474+01:00  INFO 18688 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-01-29T19:35:39.546+01:00  WARN 18688 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2024-01-29T19:35:39.546+01:00 ERROR 18688 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : La columna "CATEGORIA_ID" no permite valores nulos (NULL)
+NULL not allowed for column "CATEGORIA_ID"; SQL statement:
+insert into articulos (categoria_id,descripcion,ficha_tecnica,imagen,iva,nombre,precio,proveedor_id,referencia,unidades,id) values (?,?,?,?,?,?,?,?,?,?,default) [23502-224]
+2024-01-29T19:37:21.814+01:00  WARN 18688 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2024-01-29T19:37:21.815+01:00 ERROR 18688 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : La columna "PROVEEDOR_ID" no permite valores nulos (NULL)
+NULL not allowed for column "PROVEEDOR_ID"; SQL statement:
+insert into articulos (categoria_id,descripcion,ficha_tecnica,imagen,iva,nombre,precio,proveedor_id,referencia,unidades,id) values (?,?,?,?,?,?,?,?,?,?,default) [23502-224]
+2024-01-29T19:37:31.487+01:00  INFO 18688 --- [http-nio-8080-exec-6] c.d.a.u.impl.UploadFileServiceImpl       : rootPath: C:\Users\daw2\Desktop\IntelliJProjects\Aprende04\uploads\articulos\imagenes\MONITOR
+2024-01-29T19:37:31.491+01:00  INFO 18688 --- [http-nio-8080-exec-6] c.d.a.u.impl.UploadFileServiceImpl       : rootPath: C:\Users\daw2\Desktop\IntelliJProjects\Aprende04\uploads\articulos\fichas\MONITOR
+2024-01-29T19:39:25.706+01:00  INFO 18688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T19:39:25.712+01:00  WARN 18688 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-01-29T19:39:25.713+01:00  INFO 18688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-29T19:39:25.714+01:00  INFO 18688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
